@@ -13,5 +13,6 @@ public class LoginOneJN extends BaseTest{
 	type("UsernameText_XPATH",username);
 	type("PasswordText_XPATH",password);
 	click("Loginbutton_XPATH");
-}
+	
+	}
 }

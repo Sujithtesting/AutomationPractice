@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-21T21:09:52 IST" name="Suite" finished-at="2023-03-21T21:10:00 IST" duration-ms="8216">
+  <suite started-at="2023-03-31T10:08:22 IST" name="Suite" finished-at="2023-03-31T10:09:00 IST" duration-ms="37264">
     <groups>
     </groups>
-    <test started-at="2023-03-21T21:09:52 IST" name="OneJN Login Test" finished-at="2023-03-21T21:10:00 IST" duration-ms="8216">
+    <test started-at="2023-03-31T10:08:22 IST" name="OneJN Login Test" finished-at="2023-03-31T10:09:00 IST" duration-ms="37264">
       <class name="testcases.LoginOneJN">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginOneJN@42a9a63e]" started-at="2023-03-21T21:09:40 IST" name="setUp" finished-at="2023-03-21T21:09:52 IST" duration-ms="11739" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginOneJN@6107165]" started-at="2023-03-31T10:07:44 IST" name="setUp" finished-at="2023-03-31T10:08:22 IST" duration-ms="37848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="OneJN_TC1(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginOneJN@42a9a63e]" started-at="2023-03-21T21:09:52 IST" name="OneJN_TC1" data-provider="dp1" finished-at="2023-03-21T21:10:00 IST" duration-ms="8157" status="PASS">
+        <test-method signature="OneJN_TC1(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginOneJN@6107165]" started-at="2023-03-31T10:08:22 IST" name="OneJN_TC1" data-provider="dp1" finished-at="2023-03-31T10:09:00 IST" duration-ms="37158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OneJN_TC1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginOneJN@42a9a63e]" started-at="2023-03-21T21:10:01 IST" name="tearDown" finished-at="2023-03-21T21:10:02 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginOneJN@6107165]" started-at="2023-03-31T10:09:01 IST" name="tearDown" finished-at="2023-03-31T10:09:02 IST" duration-ms="1112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

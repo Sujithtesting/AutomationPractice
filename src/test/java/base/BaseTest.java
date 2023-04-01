@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.logging.LogManager;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -42,7 +43,7 @@ public class BaseTest {
 	private static Properties or = new Properties();
 	private static Properties config = new Properties();
 	private static FileInputStream fis;
-	private static Logger log = Logger.getLogger(BaseTest.class);
+	public static Logger log = Logger.getLogger(BaseTest.class);
 	public static ExcelReader excel = new ExcelReader(".//src//test//resources//excel//testdata.xlsx");
 	public static MonitoringMail mail = new MonitoringMail();
 	public static WebDriverWait wait;

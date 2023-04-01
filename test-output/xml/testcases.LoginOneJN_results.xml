@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OneJN Login Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="37.158">
+  <properties />
+  
+  
+            <testcase name="OneJN_TC1" time="37.158" classname="testcases.LoginOneJN" />
+      
+</testsuite>
